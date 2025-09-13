@@ -11,6 +11,7 @@ ImageSize=Image.size
 print(ImageSize)
 print("***********************")
 # 将图像缩放为100*100
+# size=height*width*PipeNum
 ResizeImage=cv2.resize(Image,(100,100))
 ResizeImageSize=ResizeImage.size
 print(ResizeImageSize)
